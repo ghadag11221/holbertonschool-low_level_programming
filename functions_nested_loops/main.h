@@ -6,6 +6,7 @@ int _islower(int c);
 int _isalpha(int c);
 int print_sign(int n);
 int _abs(int n);
-int print_last_digit(int n); /* Function prototype for print_last_digit */
+int print_last_digit(int n);
+void jack_bauer(void); /* Function prototype for jack_bauer */
 
 #endif /* MAIN_H */
