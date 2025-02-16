@@ -1,21 +1,14 @@
 #include <stdio.h>
-
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-    char letter;
-
-    for (letter = 'z'; letter >= 'a'; letter--)
-    {
-        putchar(letter);
-    }
-
-    putchar('\n');
-
-    return (0);
+int ch;
+for (ch = 122; ch >= 97; ch--) /* ASCII 122 = 'z' ، ASCII 97 = 'a' */
+putchar(ch);
+putchar('\n'); /* طباعة سطر جديد */
+return (0);
 }
-
