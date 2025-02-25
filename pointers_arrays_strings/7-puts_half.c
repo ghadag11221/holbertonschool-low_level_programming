@@ -19,7 +19,7 @@ void puts_half(char *str)
 	}
 	else
 	{
-		n = (len - 1) / 2;
+		n = (len + 1) / 2; /* Adjust to start from the correct index */
 	}
 
 	for (i = n; str[i] != '\0'; i++)
