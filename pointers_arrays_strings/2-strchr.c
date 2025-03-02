@@ -9,18 +9,19 @@
  */
 char *_strchr(char *s, char c)
 {
-while (*s)
-{
-if (*s == c)
-{
-return (s);
-}
-s++;
-}
-// If character is not found, return NULL
-if (c == '\0')
-{
-return (s);
-}
-return (NULL);
+	while (*s)
+	{
+		if (*s == c)
+		{
+			return (s);
+		}
+		s++;
+	}
+
+	/* If character is not found, return NULL */
+	if (c == '\0')
+	{
+		return (s);
+	}
+	return (NULL);
 }
