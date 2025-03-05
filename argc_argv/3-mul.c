@@ -21,7 +21,7 @@ return (1);  /* Exit with status 1 if incorrect number of arguments */
     /* Convert the arguments from strings to integers and multiply them */
 num1 = atoi(argv[1]);  /* Convert argv[1] to an integer */
 num2 = atoi(argv[2]);  /* Convert argv[2] to an integer */
-result = num1 * num2;  /* Multiply the two integers */
+result = num1 *num2;  /* Multiply the two integers */
     /* Print the result */
 printf("%d\n", result);
 return (0);  /* Exit with status 0 on success */
