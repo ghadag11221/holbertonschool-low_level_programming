@@ -15,4 +15,4 @@ char *owner;
 };
 /* Add the function prototype for print_dog */
 void print_dog(struct dog *d);
-#endif /* DOG_H */
+#endif/* DOG_H */
