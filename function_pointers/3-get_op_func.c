@@ -2,7 +2,6 @@
 /**
  * get_op_func - Selects the correct function based on the operator
  * @s: The operator passed as an argument
- *
  * Return: Pointer to the corresponding function, or NULL if invalid
  */
 int (*get_op_func(char *s))(int, int)
