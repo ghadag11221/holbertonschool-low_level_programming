@@ -13,7 +13,8 @@ char *str, *sep = "";
 va_start(args, format);
 while (format && format[i])
 {
-printf("%s", sep);
+if (printed)
+printf(", "); /* Add separator only after the first valid argument */
 switch (format[i])
 {
 case 'c':
