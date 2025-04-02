@@ -19,11 +19,12 @@ typedef struct list_s
 } list_t;
 
 /**
- * list_len - Returns the number of elements in a linked list_t list
- * @h: Pointer to the head of the list
+ * add_node - Adds a new node at the beginning of a list_t list
+ * @head: Pointer to the first element in the list
+ * @str: String to be duplicated and added to the new node
  *
- * Return: Number of elements in the list
+ * Return: Address of the new element, or NULL if it failed
  */
-size_t list_len(const list_t *h);
+list_t *add_node(list_t **head, const char *str);
 
 #endif /* LISTS_H */
